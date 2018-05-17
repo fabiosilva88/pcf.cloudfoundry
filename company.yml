@@ -1,5 +1,5 @@
 ---
 spring:
-    profile: cloud
+    profiles: cloud
     
 message: Hello World!
