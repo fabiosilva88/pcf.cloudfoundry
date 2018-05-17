@@ -2,4 +2,4 @@
 spring:
     profiles: cloud
     
-message: Hello World!
+message: Let's trye to change this value.
