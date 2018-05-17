@@ -1,3 +1,16 @@
 ---
 info:
     description: Training configuration repo
+    
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://username:password@service-registry.app.pcf.nit.de/eureka
+
+---
+
+spring:
+    profiles: cloud
+
+eureka.instance.hostanme: ${vcap.application.application_uris[0]}
+eureka.instance.nonSecurePort: 80
