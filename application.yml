@@ -1,14 +1,2 @@
-myProperty: ${vcap.services.myUPSi.credentials.paramKey}
-spring:
-    cloud:
-        config:
-            server:
-            git:
-                uri: https://github.com/fabiosilva88/pcf.cloudfoundry.git
-                username:
-                password:
-
-security:
-    user:
-        name: root
-        password: password
+info:
+    description: Training configuration repo
